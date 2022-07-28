@@ -4,7 +4,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/../../hotpay/project/Chat/pom.xml" />
+        <option value="$PROJECT_DIR$/../../hotpay/project/IFx/ifx-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/../../hotpay/project/IFx/ifx-fxClient/pom.xml" />
+        <option value="$PROJECT_DIR$/../../hotpay/project/IFx/ifx-cloudServer/pom.xml" />
+        <option value="$PROJECT_DIR$/../../hotpay/project/IFx/pom.xml" />
+        <option value="$PROJECT_DIR$/../../hotpay/project/IFx/ifx-cloudServer/ifx-socket/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

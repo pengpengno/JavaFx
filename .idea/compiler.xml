@@ -6,12 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="IfxServerGateway" />
         <module name="doc" />
+        <module name="ifx-starter" />
+        <module name="ifx-fxClient" />
+        <module name="ifx-socket" />
+        <module name="ifx-common" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Chat" target="1.5" />
+    <bytecodeTargetLevel target="8">
       <module name="doc" target="1.5" />
+      <module name="IFx" target="1.5" />
+      <module name="ifx-cloudServer" target="1.5" />
+      <module name="ifx-common" target="11" />
+      <module name="ifx-fxClient" target="8" />
+      <module name="ifx-socket" target="1.5" />
+      <module name="ifx-starter" target="1.5" />
+      <module name="IfxServerGateway" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ifx-socket" options="" />
+    </option>
   </component>
 </project>

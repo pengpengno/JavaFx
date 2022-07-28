@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../hotpay/project/Chat/Chat.iml" filepath="$PROJECT_DIR$/../../hotpay/project/Chat/Chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../hotpay/project/Chat/IFx.iml" filepath="$PROJECT_DIR$/../../hotpay/project/Chat/IFx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../hotpay/project/IFx/ifx-cloudServer/IfxServerGateway/IfxServerGateway.iml" filepath="$PROJECT_DIR$/../../hotpay/project/IFx/ifx-cloudServer/IfxServerGateway/IfxServerGateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../hotpay/project/Chat/doc/doc.iml" filepath="$PROJECT_DIR$/../../hotpay/project/Chat/doc/doc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../hotpay/project/IFx/ifx-cloudServer/ifx-cloudServer.iml" filepath="$PROJECT_DIR$/../../hotpay/project/IFx/ifx-cloudServer/ifx-cloudServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../hotpay/project/IFx/ifx-common/ifx-common.iml" filepath="$PROJECT_DIR$/../../hotpay/project/IFx/ifx-common/ifx-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../hotpay/project/IFx/ifx-fxClient/ifx-fxClient.iml" filepath="$PROJECT_DIR$/../../hotpay/project/IFx/ifx-fxClient/ifx-fxClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../hotpay/project/IFx/ifx-cloudServer/ifx-socket/ifx-socket.iml" filepath="$PROJECT_DIR$/../../hotpay/project/IFx/ifx-cloudServer/ifx-socket/ifx-socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../hotpay/project/IFx/ifx-starter/ifx-starter.iml" filepath="$PROJECT_DIR$/../../hotpay/project/IFx/ifx-starter/ifx-starter.iml" />
     </modules>
   </component>
 </project>
