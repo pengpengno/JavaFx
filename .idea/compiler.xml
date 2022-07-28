@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="IfxServerGateway" />
+        <module name="ifx-fxClient" />
+        <module name="ifx-common" />
+        <module name="ifx-connect" />
         <module name="doc" />
         <module name="ifx-starter" />
-        <module name="ifx-fxClient" />
-        <module name="ifx-socket" />
-        <module name="ifx-common" />
+        <module name="ifx-connection" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
+    <bytecodeTargetLevel target="11">
       <module name="doc" target="1.5" />
-      <module name="IFx" target="1.5" />
-      <module name="ifx-cloudServer" target="1.5" />
-      <module name="ifx-common" target="11" />
-      <module name="ifx-fxClient" target="8" />
-      <module name="ifx-socket" target="1.5" />
-      <module name="ifx-starter" target="1.5" />
-      <module name="IfxServerGateway" target="11" />
+      <module name="IFx" target="1.8" />
+      <module name="ifx-cloudServer" target="1.8" />
+      <module name="ifx-common" target="1.8" />
+      <module name="ifx-connect" target="1.8" />
+      <module name="ifx-connection" target="11" />
+      <module name="ifx-fxClient" target="1.5" />
+      <module name="ifx-socket" target="11" />
+      <module name="ifx-starter" target="1.8" />
+      <module name="IfxServerGateway" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ifx-socket" options="" />
-    </option>
   </component>
 </project>
